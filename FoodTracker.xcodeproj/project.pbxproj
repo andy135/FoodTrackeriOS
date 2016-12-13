@@ -13,6 +13,8 @@
 		A1B085291DFFF4EA00CB20B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B085281DFFF4EA00CB20B5 /* Assets.xcassets */; };
 		A1B0852C1DFFF4EA00CB20B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B0852A1DFFF4EA00CB20B5 /* LaunchScreen.storyboard */; };
 		A1B085371DFFF4EA00CB20B5 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B085361DFFF4EA00CB20B5 /* FoodTrackerTests.swift */; };
+		A1B085421E00165400CB20B5 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B085411E00165400CB20B5 /* RatingControl.swift */; };
+		A1B085441E002CAE00CB20B5 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B085431E002CAE00CB20B5 /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A1B085321DFFF4EA00CB20B5 /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B085361DFFF4EA00CB20B5 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		A1B085381DFFF4EA00CB20B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B085411E00165400CB20B5 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		A1B085431E002CAE00CB20B5 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				A1B085211DFFF4EA00CB20B5 /* AppDelegate.swift */,
 				A1B085231DFFF4EA00CB20B5 /* ViewController.swift */,
+				A1B085411E00165400CB20B5 /* RatingControl.swift */,
+				A1B085431E002CAE00CB20B5 /* Meal.swift */,
 				A1B085251DFFF4EA00CB20B5 /* Main.storyboard */,
 				A1B085281DFFF4EA00CB20B5 /* Assets.xcassets */,
 				A1B0852A1DFFF4EA00CB20B5 /* LaunchScreen.storyboard */,
@@ -199,7 +205,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B085441E002CAE00CB20B5 /* Meal.swift in Sources */,
 				A1B085241DFFF4EA00CB20B5 /* ViewController.swift in Sources */,
+				A1B085421E00165400CB20B5 /* RatingControl.swift in Sources */,
 				A1B085221DFFF4EA00CB20B5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
