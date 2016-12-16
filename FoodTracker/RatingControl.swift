@@ -71,18 +71,19 @@ import UIKit
             // Set the hint string for the currently selected star
             let hintString: String?
             if rating == index + 1 {
-                hintString = "Tap to reset the rating to zero."
+                hintString = NSLocalizedString("ResetRating", comment: "reset rating to zero")
             } else {
                 hintString = nil
             }
+            
             
             // Calculate the value string
             let valueString: String
             switch (rating) {
             case 0:
-                valueString = "No rating set."
+                valueString = NSLocalizedString("NoRating", comment: "rating not set")
             case 1:
-                valueString = "1 star set."
+                valueString = NSLocalizedString("SingularRating", comment: "singular star rating")
             default:
                 valueString = "\(rating) stars set."
             }

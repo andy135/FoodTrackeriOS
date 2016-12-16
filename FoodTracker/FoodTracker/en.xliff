@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="FoodTracker/Base.lproj/LaunchScreen.storyboard" source-language="en" datatype="plaintext" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2" build-num="8C38"/>
+    </header>
+    <body/>
+  </file>
+  <file original="FoodTracker/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2" build-num="8C38"/>
+    </header>
+    <body>
+      <trans-unit id="Ul5-4r-Xnc.title">
+        <source>Meals</source>
+        <note>Class = "UINavigationItem"; title = "Meals"; ObjectID = "Ul5-4r-Xnc";</note>
+      </trans-unit>
+      <trans-unit id="id9-n8-tPF.title">
+        <source>New Meal</source>
+        <note>Class = "UINavigationItem"; title = "New Meal"; ObjectID = "id9-n8-tPF";</note>
+      </trans-unit>
+      <trans-unit id="qKc-nA-s5y.placeholder">
+        <source>Enter meal name</source>
+        <note>Class = "UITextField"; placeholder = "Enter meal name"; ObjectID = "qKc-nA-s5y";</note>
+      </trans-unit>
+      <trans-unit id="yew-jO-Zc7.text">
+        <source>Label</source>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "yew-jO-Zc7";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="FoodTracker/Info.plist" source-language="en" datatype="plaintext" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2" build-num="8C38"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="FoodTracker/Localizable.strings" source-language="en" datatype="plaintext" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2" build-num="8C38"/>
+    </header>
+    <body>
+      <trans-unit id="NoRating">
+        <source>NoRating</source>
+        <note>rating not set</note>
+      </trans-unit>
+      <trans-unit id="ResetRating">
+        <source>ResetRating</source>
+        <note>reset rating to zero</note>
+      </trans-unit>
+      <trans-unit id="SingularRating">
+        <source>SingularRating</source>
+        <note>singular star rating</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="FoodTrackerTests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2" build-num="8C38"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
